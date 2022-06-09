@@ -12,7 +12,7 @@ This README file has instructions on how to get, validate and process the data.
 
 ```
 cd data
-curl -L https://figshare.com/ndownloader/files/{DATA_ID} -o group_data.tar
+curl -L https://figshare.com/ndownloader/files/34951740 -o group_data.tar
 tar xvf group_data.tar
 cd ..
 ```
@@ -38,7 +38,8 @@ This should print output to the terminal of form:
 
 Where `<filename>` is the name of the image that has outlier scans, and
 `<outlier_index>` is an index to the volume in the 4D image that you have
-identified as an outlier.  0 refers to the first volume.  For example:
+identified as an outlier.  0 refers to the first volume.  For example (these
+outlier IDs are completely random, for illustration):
 
 ```
 data/group-01/sub-01/func/sub-01_task-taskzero_run-01_bold.nii.gz, 3, 21, 22, 104
